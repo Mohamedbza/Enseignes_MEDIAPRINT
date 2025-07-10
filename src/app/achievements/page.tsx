@@ -508,7 +508,7 @@ const AchievementsPage = () => {
               
               <div className="flex justify-end">
                 <Link
-                  href="/contact"
+                  href="/#contact"
                   className="inline-flex items-center px-6 py-3 text-white font-semibold rounded-lg transition-colors duration-300"
                   style={{backgroundColor: '#32B8F1'}}
                   onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#1578a9'}

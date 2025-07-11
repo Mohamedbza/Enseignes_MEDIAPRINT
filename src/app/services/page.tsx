@@ -79,7 +79,7 @@ const ServicesPage = () => {
         "Services d'urgence disponible 7/7",
         "Programmes d'entretien préventif"
       ],
-      image: "/carousel3.jpg",
+      image: "/installation.jpg",
       category: "Service et assistance",
       color: "bg-orange-500",
       lightColor: "bg-orange-50",

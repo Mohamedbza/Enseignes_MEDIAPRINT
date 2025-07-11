@@ -4,7 +4,7 @@ import React from 'react'
 import HeroCarousel from '@/components/sections/HeroCarousel'
 import ServicesOverview from '@/components/sections/ServicesOverview'
 import StatsSection from '@/components/sections/StatsSection'
-import InstallationSection from '@/components/sections/InstallationSection'
+
 import AchievementsVideoSection from '@/components/sections/AchievementsVideoSection'
 import ContactSection from '@/components/sections/ContactSection'
 
@@ -20,8 +20,7 @@ export default function HomePage() {
       {/* Stats Section */}
       <StatsSection />
 
-      {/* Installation Services Section */}
-      <InstallationSection />
+
 
       {/* Achievements Video Section */}
       <AchievementsVideoSection />

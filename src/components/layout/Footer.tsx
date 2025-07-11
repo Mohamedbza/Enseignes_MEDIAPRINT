@@ -39,8 +39,7 @@ const Footer = () => {
   ];
 
   const certifications = [
-    { name: 'Certifié CSA', description: 'Normes de sécurité' },
-    { name: 'Conforme OSHA', description: 'Sécurité au travail' }
+    { name: 'Certifié CSA', description: 'Produits certifiés' }
   ];
 
   return (
@@ -81,16 +80,7 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Awards */}
-            <div className="bg-gray-800 rounded-lg p-3 sm:p-4">
-              <div className="flex items-center space-x-3 mb-2 sm:mb-3">
-                <Award className="w-4 h-4 sm:w-5 sm:h-5" style={{color: '#32B8F1'}} />
-                <span className="text-sm sm:text-base font-semibold">{"Reconnaissance de l'industrie"}</span>
-              </div>
-              <div className="text-xs sm:text-sm text-gray-300">
-                {"Lauréat du prix d'excellence en affaires de Montréal 2023"}
-              </div>
-            </div>
+
           </div>
 
           {/* Services - 2 columns */}
@@ -191,8 +181,8 @@ const Footer = () => {
                 <div>
                   <div className="text-sm sm:text-base font-medium text-white">Venez nous voir</div>
                   <div className="text-sm sm:text-base text-gray-300">
-                    1234 Rue Saint-Laurent<br />
-                    Montreal, QC H2X 2T3
+                    8236 Rue Pascal-Gagnon<br />
+                    Montréal, QC
                   </div>
                   <div className="text-xs sm:text-sm text-gray-400">{"Salle d'exposition & Atelier"}</div>
                 </div>

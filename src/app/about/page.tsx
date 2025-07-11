@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import ContactModal from '@/components/common/ContactModal';
-import CompaniesCarousel from '@/components/sections/CompaniesCarousel';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { 
@@ -302,10 +302,7 @@ const AboutPage = () => {
         </div>
       </section>
 
-      {/* Companies Worked With Carousel */}
-      <section className="bg-gray-50">
-        <CompaniesCarousel />
-      </section>
+
       
       {/* Contact Modal */}
       <ContactModal

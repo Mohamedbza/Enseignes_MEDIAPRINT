@@ -126,8 +126,8 @@ const InstallationSection = () => {
               <div className="relative" style={{ width: '60vw', maxWidth: '100%', margin: '0 auto' }}>
                 <div className="aspect-[4/3] relative rounded-2xl overflow-hidden shadow-2xl border border-gray-200">
                   <Image
-                    src="/truck.png"
-                    alt="MEDIAPRINT Professional Installation Truck"
+                    src="/installation.jpg"
+                    alt="MEDIAPRINT Professional Installation Services"
                     fill
                     className="object-cover object-center"
                     priority
